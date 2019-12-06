@@ -1,0 +1,95 @@
+body{
+	background: #000;
+	text-align: center;
+	line-height: 200px;
+	vertical-align: middle;
+}
+.circle{
+	display: inline-block;
+	margin-top: 200px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #E9D5A6;
+	position: relative;
+	
+}
+.circle span{
+	position: absolute;
+	background-color: #fff;
+	border-radius: 50%;
+	width: 100%;
+	opacity: .4;
+	height: 100%;
+	z-index: -1;
+	left: 0;
+	top: 0%;
+
+}
+.circle span:nth-child(1){
+	animation: span-1 4s ease-in-out infinite;
+}
+@keyframes span-1{
+	0%{
+		width: 100%;
+		height: 100%;
+	}
+	100%{
+		opacity: 0;
+		width: 150%;
+		height: 150%;
+		left: -25%;
+		top: -25%;
+	}
+}
+.circle span:nth-child(2){
+	animation: span-2 4s ease-in-out infinite;
+	animation-delay: 1s;
+}
+@keyframes span-2{
+	0%{
+		width: 100%;
+		height: 100%;
+	}
+	100%{
+		opacity: 0;
+		width: 150%;
+		height: 150%;
+		left: -25%;
+		top: -25%;
+	}
+}
+.circle span:nth-child(3){
+	animation: span-3 4s ease-in-out infinite;
+	animation-delay: 2s;
+}
+@keyframes span-3{
+	0%{
+		width: 100%;
+		height: 100%;
+	}
+	100%{
+		opacity: 0;
+		width: 150%;
+		height: 150%;
+		left: -25%;
+		top: -25%;
+	}
+}
+.circle span:nth-child(4){
+	animation: span-4 4s ease-in-out infinite;
+	animation-delay: 3s;
+}
+@keyframes span-4{
+	0%{
+		width: 100%;
+		height: 100%;
+	}
+	100%{
+		opacity: 0;
+		width: 150%;
+		height: 150%;
+		left: -25%;
+		top: -25%;
+	}
+}

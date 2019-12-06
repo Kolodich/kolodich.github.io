@@ -1,0 +1,38 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	text-align: center;
+}
+.row{
+	position: relative;
+	display: inline-block;
+	margin-top: 200px;
+	font-size: 40px;
+	letter-spacing: 10px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	
+	padding-left: 100px;
+	height: 40px;
+	line-height: 40px;
+	background-color: rgba(0,0,0,0.05);
+}
+.row:before{
+	position: absolute;
+	content: '';
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: lightBlue;
+	left: 0px;
+	top: 0px;
+	box-shadow: 25px 20px Pink, 50px 0px lightBlue, 75px 20px Pink;
+	transition: 0.75s top ease-in-out, 0.75s box-shadow ease-in-out, 0.75s background-color ease-in-out;
+}
+.row:hover:before{
+	box-shadow: 25px -20px lightBlue, 50px 0px Pink, 75px -20px lightBlue;
+	background-color: Pink;
+	top: 20px;
+}
