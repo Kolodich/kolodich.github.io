@@ -1,0 +1,76 @@
+
+.header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 50;
+}
+.header:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+.top-menu{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.main-menu{
+	list-style: none;
+	display: inline-block;
+	float: right;
+	font-size: 0px;
+}
+.main-menu__item{
+	display: inline-block;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	padding-left: 	55px;
+}
+.main-menu li a{
+	font-style: sans-serif; 
+	font-size: 2.5rem;
+	text-decoration: none;
+	font-family: "Karla";
+	position: relative;
+}
+.main-menu li a:link, .main-menu li a:visited, 
+.main-menu li a:active, .main-menu li a:hover{
+	color: black;
+}
+.main-menu li a:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -18px;
+	width: 0%;
+	background-color: black;
+	display: block;
+	height: 2px;
+	transition: 0.2s width;
+}
+.main-menu li a:hover{
+	font-weight: bold;
+}
+.main-menu li a:hover:before{
+	width: 100%;
+}
+@media (max-width: 767px){
+	.top-menu{
+		text-align: center;
+	}
+	.main-menu{
+		float: none;
+	}
+	.main-menu__item{
+		display: block;
+		padding-left: 0px;
+	}
+	.top-menu{
+		padding-bottom: 30px;
+	}
+}

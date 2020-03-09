@@ -1,0 +1,20 @@
+@import url("../fonts/Karla/stylesheet.css");
+@import url("../fonts/OpenSans/stylesheet.css");
+
+html{
+	font-size: 10px;
+	font-family: "Karla", sans-serif;;
+}
+
+*, *:before, *:after{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	box-sizing: border-box;
+}
+.wrapper{
+	padding: 0px 80px;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}

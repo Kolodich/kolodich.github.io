@@ -1,0 +1,40 @@
+.cards__row1, .cards__row2{
+	display: flex;
+}
+.cards__row1 .cards__column{
+	flex: 0 1 50%;
+}
+.cards__row2 .cards__column{
+	flex: 0 1 25%;
+}
+.cards__item{
+
+}
+.cards__img{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.cards__row1 .cards__img{
+	padding: 0px 0px 75% 0px;
+}
+.cards__row2 .cards__img{
+	padding: 0px 0px 100% 0px;
+}
+.cards__img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.cards__row1{
+	margin-top: 150px;
+}
+@media screen and (max-width: 1024px){
+	.cards__row1 .cards__column{
+		flex-wrap: wrap;
+		flex: 0 1 100%;
+	}	
+}

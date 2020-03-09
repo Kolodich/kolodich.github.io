@@ -1,0 +1,211 @@
+.expand{
+	text-align: center;
+	padding: 40px 40px;
+}
+.expand__item{
+	font-size: 3.2rem;
+	padding: 30px 50px;
+}
+
+.info{
+	display: flex;
+	margin: 115px 0px;
+}
+.info__item{
+	flex: 0 1 50%;
+	position: relative;
+}
+.line:before{
+	content: "";
+	position: absolute;
+	background-color: #000;
+	height: 110px;
+	width: 2px;
+}
+.info.what-i-do>.info__item>.line:before{
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.info.what-i-do>.info__item>h2{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.info__item>h2{
+	font-family: "Karla" ,sans-serif;
+	font-size: 5.6rem;
+	font-weight: normal;
+	text-align: center;
+	width: 100%;
+}
+
+.what-i-do>.info__item>p{
+	padding-left: 120px;
+}
+.info__item>p{
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.8rem;
+}
+.to-do-area__descr:before{
+	content: "";
+	position: absolute;
+	height: 110px;
+	background-color: #000;
+	width: 2px;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.info.about-me .img-container{
+  	width: 80%;
+	overflow: hidden;
+	position: relative;
+	padding-top: 100%;
+}
+.info.about-me .img-container img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 1;
+}
+.info.about-me>.info__item>h2, .info.about-me>.info__item>p{
+	padding-left: 20%;
+}
+.info.about-me>.info__item>h2{
+	display: block;
+	width: 100%;
+	height: 110px;
+	position: relative;
+	left: 0;
+	top: 0;
+	transform: translate(0, 0);	
+	line-height: 110px;
+}
+.info.about-me>.info__item>.line:before{
+	left: 0;
+	top: 50%	;
+	transform: translateY(-50%);
+	height: 110px;
+	width: 2px;
+}
+.info.about-me>.info__item>p{
+	margin-top: 100px;
+}
+/*Стили формы*/
+.info__item form{
+	padding-left: 20%;
+	padding-right: 10%;
+	width: 100%;
+	position: relative;
+}
+.info__item form label, .info__item form button{
+	font-size: 2.4rem;
+}
+.info__item form div *{
+	display: block;
+}
+.info__item form div input, .info__item form div textarea{
+	width: 100%;
+	min-width: 320px;
+	padding: 5px 10px;
+	background-color: #f1f1f1;
+	font-size: 2rem;
+}
+.info__item form div .name~input, .info__item form div .email~input{
+	height: 47px;
+}
+.info__item form div input, .info__item form div textarea{
+	margin: 10px 0;
+}
+.info__item form div label{
+	margin: 10px 0;
+}
+.info__item form div .message~textarea{
+	height: 240px;
+}
+.info__item form button{
+	margin: 20px;
+	margin: 0 auto;
+	position: absolute; 
+	left: 50%;
+	background-color: #fff;
+	font-weight: normal;
+	transition: 0.3s font-weight;
+}
+.info__item form button::before, .info__item form button::after{
+	content: "";
+	position: absolute;
+	height: 2px;
+	background-color: #000;
+	width: 0%;
+	transition: 0.3s width;
+}
+.info__item form button::after{
+	right: 50%;
+	bottom: 0;
+	transform: translate(0, -50%);
+	
+}
+.info__item form button::before{
+	left: 50%;
+	bottom: 0;
+	transform: translate(0, -50%);
+}
+.info__item form button:hover{
+	font-weight: bold;
+}
+.info__item form button:hover::after{
+	width: 50%;
+}
+.info__item form button:hover::before{
+	width: 50%;
+}
+.info.contact>.info__item>h2{
+	display: block;
+	width: 100%;
+	height: 110px;
+	position: relative;
+	left: 0;
+	top: 0;
+	transform: translate(0, 0);	
+	line-height: 110px;
+}
+/*Контакты*/
+.info.contact>.info__item>h2.line:before{
+	right: 0;
+	top: 50%	;
+	transform: translateY(-50%);
+	height: 110px;
+	width: 2px;
+}
+.info.contact>div>ul{
+	position: absolute;
+	bottom: 40px;
+}
+.info.contact>div>ul>li{
+	height: 25%;
+	width: 150px;
+	margin: 25px 0;
+	margin-right: 100px;
+	list-style: none;
+}
+.info.contact>div>ul>li>h3{
+	font-size: 2.4rem;
+}
+.info.contact>div>ul>li>a{
+	font-family: "Open Sans";
+	text-decoration: none;
+	font-size: 1.6rem;
+}
+.info.contact>div>ul>li.adress{
+	display: block;
+}
+.info.contact>div>ul>li.phone, .info.contact>div>ul>li.email{
+	display: inline-block;
+}
