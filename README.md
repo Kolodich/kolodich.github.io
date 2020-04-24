@@ -1,2 +1,19 @@
-# Sadedi`s Portfolio
-[WebDev](https://kolodich.github.io/sites/WebDev/)
+# Молодой и амбициозный Верстальщик
+Верстаю более года, довожу проекты до конца и оставляю клиентов довольными качественно выполненной работой.
+**Работая со мной вы получите:**
+1) Сайт в сроки.
+2) Качественный сайт с 90+ на  *[PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?hl=RU)*
+3) Адавптивность, даже если у Вас нет макета для смартфона.
+4) Вопросы по улучшению сайта.
+5) Хостинг и домен, чтобы Ваш сайт был доступен в Интернете.
+Важно, чтобы Вы остались довольны.
+
+Адаптивная кроссбраузерная (responsiv) вёрстка HTML, CSS (SCSS), JS (+JQuery)
+Также вёрстка на Bootstrap 4, по БЭМ, Flexbox и Grid CSS
+
+# Контактная информация
+* Mail: k0l0dic4@gmail.com
+* VK: https://vk.com/rkolodich
+
+# Портфолио
+1. [WebDev](https://kolodich.github.io/sites/WebDev/)
