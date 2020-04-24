@@ -12,8 +12,10 @@
 Также вёрстка на Bootstrap 4, по БЭМ, Flexbox и Grid CSS
 
 # Контактная информация
-* Mail: k0l0dic4@gmail.com
-* VK: https://vk.com/rkolodich
+* GMail: k0l0dic4@gmail.com
+* [VK](https://vk.com/rkolodich): https://vk.com/rkolodich
+* [Facebook](https://www.facebook.com/ruslan.kolodich): Ruslan Kolodich
+* [Instagram](https://www.instagram.com/_sanedi_/?hl=ru): _sanedi_
 
 # Портфолио
-1. [WebDev](https://kolodich.github.io/sites/WebDev/)
+* [WebDev](https://kolodich.github.io/sites/WebDev/)
